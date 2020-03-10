@@ -18,8 +18,8 @@ body {
   margin: 0 auto;
 
   @media screen and (min-width: 1024px) {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100px 200px 100px 1fr 100px 100px;
+    grid-template-columns: minmax(300px, auto) 1fr;
+    grid-template-rows: auto auto auto 1fr auto auto;
     grid-template-areas: (
       "logo gallery" "menu gallery" "search gallery" ". gallery"
         "contact gallery" "footer footer"
